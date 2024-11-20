@@ -1,4 +1,4 @@
-# Cse366_Ucs_vs_A-
+# Grid-Based Pathfinding Simulation Using UCS and A* Algorithms
 This is my first repository task
 
 This repository contains the implementation of Uniform Cost Search (UCS) and A Search (A)** algorithms for pathfinding in a grid environment. The simulation is built using Python and Pygame and provides a comparative analysis of the two algorithms in navigating through a grid environment with tasks and barriers.
@@ -18,11 +18,13 @@ This repository contains the implementation of Uniform Cost Search (UCS) and A S
 This lab explores autonomous navigation using an agent-based model in a grid environment. The agent completes tasks while avoiding barriers, implementing Uniform Cost Search (UCS) and A Search (A)** to demonstrate key concepts in optimal pathfinding and heuristic-driven navigation.
 
 
+
 # Setup
 
  1. Requirements
  2.Python 3.13.0 or later
  3.Pygame library
+
 
 # Installation
 
@@ -38,15 +40,21 @@ Clone this repository to your local machine:
 
    pip install pygame
 
+
+
 # Running the Simulation
 The project contains its own run.py file for execution. 
 
 1.Execute the run.py script:
      python run.py
 
+
+
 # Grid-Based Pathfinding Simulation Using UCS and A* Algorithms
 
 This project implements an agent-based model for autonomous navigation in a grid environment. The agent navigates the grid to complete tasks while avoiding barriers, using Uniform Cost Search (UCS) and A Search (A)** algorithms. The simulation demonstrates efficient and optimal pathfinding by comparing these two techniques in dynamic scenarios.
+
+
 
  # Features
   
@@ -62,6 +70,8 @@ Algorithm Efficiency Comparison: Compares the performance and path costs of UCS 
  2. The agent dynamically recalculates paths using UCS or A*, efficiently completing tasks while avoiding barriers. Use the toggle feature to switch between algorithms and observe their behavior.
 
 
+
+
 # Code Structure    
 
 The project contains the following main files:
@@ -69,6 +79,8 @@ The project contains the following main files:
 agent.py: Defines the Agent class, responsible for the agent's properties, movement, and pathfinding using UCS and A*.
 environment.py: Defines the Environment class, managing the grid setup, task and barrier placement, and utility functions for path calculations.
 main.py: The main script that initializes the Pygame window, environment, and agent, and handles user inputs, algorithm toggling, and display rendering.
+
+
 
 
 # Features
@@ -79,6 +91,9 @@ General Features
 2. Pathfinding Algorithms: Implements both Uniform Cost Search (UCS) and A* Search (A*) to demonstrate different pathfinding strategies.
 3. Dynamic Visualization: Tasks, barriers, and agent movement are visualized in real-time on the grid.
 4. Toggling Functionality: Switch seamlessly between UCS and A* algorithms during the simulation to compare their behavior and efficiency.
+
+
+
 
 # Challenges Faced and Resolutions
 
