@@ -85,16 +85,14 @@ General Features
 1. Grid Initialization
 Challenge: Randomly generating tasks and barriers without blocking paths was difficult.
 Resolution: Added checks to ensure there is always at least one valid path between the agent and tasks.
+
 2. Algorithm Efficiency
-3. 
 Challenge: A*'s performance relies heavily on the chosen heuristic.
 Resolution: Used Manhattan distance, which works efficiently for grid-based navigation.
 
-5. Simulation Display   
+4. Simulation Display
 Challenge: Designing an interface to show algorithm details and path costs was time-consuming.
 Resolution: Implemented a side panel to display dynamic information, including the algorithm toggle feature for easy switching between UCS and A*.
-
-
 
 
 
