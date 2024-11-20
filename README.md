@@ -1,4 +1,4 @@
-# Grid-Based Pathfinding Simulation Using UCS and A* Algorithms
+# CSe366_Ucs_vs_A*
 This is my first repository task
 
 This repository contains the implementation of Uniform Cost Search (UCS) and A Search (A)** algorithms for pathfinding in a grid environment. The simulation is built using Python and Pygame and provides a comparative analysis of the two algorithms in navigating through a grid environment with tasks and barriers.
