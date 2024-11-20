@@ -13,6 +13,7 @@ This repository contains the implementation of Uniform Cost Search (UCS) and A S
     6.Features
     7.Challenges Faced and Resolutions
 
+    
  # Introduction 
 This lab explores autonomous navigation using an agent-based model in a grid environment. The agent completes tasks while avoiding barriers, implementing Uniform Cost Search (UCS) and A Search (A)** to demonstrate key concepts in optimal pathfinding and heuristic-driven navigation.
 
@@ -26,6 +27,7 @@ This lab explores autonomous navigation using an agent-based model in a grid env
 # Installation
 
 Clone this repository to your local machine:
+
 
 
 
